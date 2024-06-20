@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: rodwelshazurecloudpetstore 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: rodwelshazurecloudpetstore
+  template:
+    metadata:
+      labels:
+        app: rodwelshazurecloudpetstore 
+    spec:
+      containers:
+        - name: rodwelshazurecloudpetstore 
+          image: rodsazurepetstorecr.azurecr.io/rodwelshazurecloudpetstore
+          ports:
+          - containerPort: 80
