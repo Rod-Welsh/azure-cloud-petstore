@@ -62,7 +62,7 @@ stages:
         command: buildAndPush
         repository: $(imageRepository)
         dockerfile: $(dockerfilePath)
-        containerRegistry: '$(crImagePullSecretGlobal)
+        containerRegistry: $(crImagePullSecretGlobal)
         tags: |
           $(tag)
           latest
