@@ -5,3 +5,5 @@
 Extensive Azure learning guides for a hypothetical Azure Pet Store walking you thorugh many Azure services and development scenarios using pre built web applications and microdervices.
 
 > You can view the live deployment here https://azurepetstore.com
+
+This line is used to trigger the github action pipelines for the azure 204 lab
