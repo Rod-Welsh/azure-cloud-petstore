@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: aks-petstoreproductservice
-        image: rodsazurepetstorecr.azurecr.io/petstoreproductservice:latest
+        image: rodzazurepetstorecr.azurecr.io/petstoreproductservice:latest
         ports:
         - containerPort: 80
         env:
